@@ -1,72 +1,35 @@
 ---
 ---
 
-@string{aps = {American Physical Society,}}
-
-@book{einstein1956investigations,
-  bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation,}
+@article{bakhitov2020frequentist,
+  title={Frequentist Shrinkage under Inequality Constraints},
+  author={Edvard Bakhitov},
+  journal={working paper,},
+  abstract={This paper shows how to shrink extremum estimators towards inequality constraints motivated by economic theory. We propose an Inequality Constrained Shrinkage Estimator (ICSE) which takes the form of a weighted average between the unconstrained and inequality constrained estimators with the data dependent weight. The weight drives both the direction and degree of shrinkage. We use a local asymptotic framework to derive the asymptotic distribution and risk of the ICSE. We provide conditions under which the asymptotic risk of the ICSE is strictly less than that of the unrestricted extremum estimator. The degree of shrinkage cannot be consistently estimated under the local asymptotic framework. To address this issue, we propose a feasible plug-in estimator and investigate its finite sample behavior. We also apply our framework to gasoline demand estimation under the Slutsky restriction.},
+  arxiv={2001.10586},
+  abbr={arXiv},
+  year={2020}
 }
 
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics,},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers,}
+@article{bakhitov2021causal,
+  title={Causal Gradient Boosting: Boosted Instrumental Variable Regression},
+  author={Edvard Bakhitov and Amandeep Singh},
+  journal={working paper,},
+  arxiv={2101.06078},
+  abstract={Recent advances in the literature have demonstrated that standard supervised learning algorithms are ill-suited for problems with endogenous explanatory variables. To correct for the endogeneity bias, many variants of nonparameteric instrumental variable regression methods have been developed. In this paper, we propose an alternative algorithm called boostIV that builds on the traditional gradient boosting algorithm and corrects for the endogeneity bias. The algorithm is very intuitive and resembles an iterative version of the standard 2SLS estimator. Moreover, our approach is data driven, meaning that the researcher does not have to make a stance on neither the form of the target function approximation nor the choice of instruments. We demonstrate that our estimator is consistent under mild conditions. We carry out extensive Monte Carlo simulations to demonstrate the finite sample performance of our algorithm compared to other recently developed methods. We show that boostIV is at worst on par with the existing methods and on average significantly outperforms them.},
+  code={https://github.com/edbakhitov/boostIV},
+  abbr={arXiv},
+  year={2021}
 }
 
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein, A. and Podolsky, B. and Rosen, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.,},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  selected={true}
+
+@article{bakhitov2021dci,
+ title={Deep Causal Inequalities},
+ author={Bakhitov, Edvard, and Singh, Amandeep, and Zhang, Jiding},
+ journal={working paper,},
+ abstract={Supervised machine learning algorithms fail to perform well in the presence of endogeneity in the explanatory variables. In this paper, we borrow from the literature on partial identification and propose the Deep Causal Inequalities (DeepCI) estimator that overcomes this issue. Instead of relying on observed labels, the DeepCI estimator uses inferred moment inequalities from the observed behavior of agents in the data. This by construction can allows us to circumvent the issue of endogeneous explanatory variables in many cases. We provide theoretical guarantees for our estimator and prove its consistency under very mild conditions. We demonstrate through extensive simulations that our estimator outperforms standard supervised machine learning algorithms and existing partial identification methods. Finally, we demonstrate how to use deep inequalities in the differentiated products demand estimation framework. Flexibility of the method allows for highly unstructured data like images, which we exploit in the empirical application based on the consumer level car rental data from Hertz. Using the DeepCI estimator, we show how to estimate the importance of various car design features affecting consumer consumer rental decisions.},
+ year={2021}
 }
 
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik,},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
-}
 
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.,},
-  volume={17},
-  pages={549--560},
-  year={1905}
-}
 
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
-}
