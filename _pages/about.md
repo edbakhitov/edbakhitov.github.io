@@ -18,7 +18,7 @@ social: true  # includes social icons at the bottom of the page
 
 I hold a Ph.D. in Economics from the University of Pennsylvania, where my research bridged Econometrics, Machine Learning, and Industrial Organization. My work centered on leveraging modern machine learning tools to advance flexible, nonparametric estimation in the presence of endogeneity—particularly in the context of differentiated product demand models.
 
-Currently, I work on experimentation and causal inference at Meta, with a focus on addressing interference in experimental settings. I develop methods to obtain unbiased treatment effect estimates when experimental units influence one another -— a challenge increasingly relevant in large-scale digital environments. My recent work has been featured at the Conference on Digital Experimentation at MIT (CODE@MIT).
+Currently, I work on experimentation and causal inference at Meta, with a focus on addressing interference in experimental settings. I develop methods to obtain unbiased treatment effect estimates when experimental units influence one another—a challenge increasingly relevant in large-scale digital environments. My recent work has been featured at the Conference on Digital Experimentation at MIT (CODE@MIT).
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com){:target="\_blank"}. You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
