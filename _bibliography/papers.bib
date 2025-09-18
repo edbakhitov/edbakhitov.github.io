@@ -89,17 +89,31 @@ pdf={jmp_edbakhitov.pdf}
  abbr={arXiv}
 }
 
-@misc{bakhitov2025mliv,
- title={On Machine Learning Instrumental Variable Estimators},
- author={Bakhitov, Edvard},
- journal={SSRN working paper,},
- abstract={This paper examines the practical challenges arising from the ill-posedness of the nonparametric instrumental variable (NPIV) estimation problem. We show that conventional series NPIV estimators struggle to estimate the underlying structural function with desired precision even in ``moderate" dimensions. We argue that machine learning instrumental variable algorithms leverage sophisticated regularization techniques to mitigate these issues, achieving superior finite-sample performance.},
+@misc{singh2025dci,
+ title={Deep Causal Inequalities},
+ author={Singh, Amandeep and Zhang, Jiding and Morafah, Mahdi and Bakhitov, Edvard},
+ note={working paper,},
+ abstract={Many econometric problems can be expressed as systems of inequalities derived from agents’ observed behavior. While such inequality-based formulations have been explored in the partial-identification literature, existing approaches are typically parametric and do not scale to high-dimensional or unstructured data. We extend this framework to the nonparametric setting and develop the Deep Causal Inequalities (DeepCI) estimator, a flexible minimax procedure that frames identification as an adversarial game. We theoretically establish that the procedure delivers identification in rich function classes. Specifically, we show consistency under mild conditions and derive adaptive error bounds in the projected root-mean-squared-error norm, suited to these ill-posed problems. Furthermore, by leveraging observed labels not as direct prediction targets but to construct debiased, inequality-based moments, we flexibly address endogeneity and mitigate unobserved confounding without requiring instruments. Although the framework is general, we illustrate its effectiveness in demand estimation for differentiated products using both structured (low-dimensional) and unstructured (high-dimensional) data. Monte Carlo experiments show that DeepCI accurately recovers the underlying functions even under substantial endogeneity.},
  year={2025},
- abbr={SSRN},
- code={https://github.com/edbakhitov/MLIV},
- url={https://ssrn.com/abstract=5258814}
+ url={https://ssrn.com/abstract=5385701},
+ abbr={SSRN}
 }
 
+@article{bakhitov2025mliv,
+title = {On machine learning instrumental variable estimators},
+journal = {Economics Letters},
+abbr={EcoLet},
+volume = {256},
+pages = {112601},
+year = {2025},
+issn = {0165-1765},
+doi = {https://doi.org/10.1016/j.econlet.2025.112601},
+url = {https://www.sciencedirect.com/science/article/pii/S0165176525004380},
+author = {Edvard Bakhitov},
+code={https://github.com/edbakhitov/MLIV},
+keywords = {Nonparametric methods, Instrumental variables, Ill-posed inverse problem, Regularization, Machine learning},
+abstract = {This paper examines the practical challenges arising from the ill-posedness of the nonparametric instrumental variable (NPIV) estimation problem. We show that conventional NPIV series estimators struggle to estimate the underlying structural function with desired precision even in “moderate” dimensions. We argue that machine learning instrumental variable algorithms leverage sophisticated regularization techniques to mitigate these issues, achieving superior finite-sample performance.}
+}
 
 
 
