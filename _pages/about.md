@@ -18,7 +18,7 @@ social: true  # includes social icons at the bottom of the page
 
 I hold a Ph.D. in Economics from the University of Pennsylvania, under the supervision of [Amit Gandhi](https://www.linkedin.com/in/amitgandhiecon/). My research focused on combining modern machine learning with economic theory to enable flexible, nonparametric estimation in settings with endogeneity — most notably in differentiated product demand models.
 
-Previously, I worked on experimentation and causal inference with the [Central Applied Science](https://research.facebook.com/teams/cas/) team at Meta. There, I developed methods for obtaining unbiased treatment effect estimates in the presence of interference. Some of this work was featured at the Conference on Digital Experimentation at MIT (CODE@MIT).
+I am a Senior Data Scientist on the Windows Experimentation Team at Microsoft, where I work on experimentation and causal inference. Previously, I was a part of the [Central Applied Science](https://research.facebook.com/teams/cas/) team at Meta. There, I designed and deployed advanced experimentation frameworks for large-scale, interference-prone environments. Some of this work was featured at the Conference on Digital Experimentation at MIT (CODE@MIT) and AAAI Conference on Artificial Intelligence.
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com){:target="\_blank"}. You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
